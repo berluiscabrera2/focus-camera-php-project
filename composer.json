@@ -1,0 +1,13 @@
+{
+    "name": "berluis/focus-camera-php-project",
+    "description": "A simple CRUD application for managing customers",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FocusCamera\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
