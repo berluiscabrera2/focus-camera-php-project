@@ -40,7 +40,7 @@ printCustomerDetails($retailCustomer);
 
 // Create a new corporate customer
 printHeader("Creating a Corporate Customer");
-$corporateCustomer = new CorporateCustomer(null, 'Jamal Washington', 'jamal@company.com', 'TechCorp Inc.');
+$corporateCustomer = new CorporateCustomer(null, 'Jamal Washington', 'jamal@company.com', 'WarnerBros Inc.');
 $customerManager->createCustomer($corporateCustomer);
 echo "Corporate customer created successfully" . PHP_EOL;
 printCustomerDetails($corporateCustomer);

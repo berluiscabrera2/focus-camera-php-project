@@ -1,28 +1,41 @@
-# Focus Camera Junior Dev PHP Project
+# Focus Camera Simple Customer Management System
 
-This project is a simple CRUD application for managing customer entities, developed as part of the Focus Camera junior developer application process.
+This is a basic CRUD (Create, Read, Update, Delete) application for managing customer entities, developed as part of the junior developer application process.
 
-## Setup
 
-1. Make sure you have PHP 7.4 or higher installed.
-2. Install Composer if you haven't already (https://getcomposer.org/).
-3. Clone this repository.
-4. Navigate to the project directory and run `composer install` to install dependencies.
-5. Ensure the `data` directory is writable by your web server.
+## Note to Focus Camera Staff
 
-## Running the Project
+This project is a demonstration of basic PHP skills and understanding of key programming concepts. It's intentionally kept simple and doesn't include a frontend interface. The focus is on backend logic and code organization.
 
-To run the project, navigate to the project directory in your terminal and execute:
+If you have any questions or need further clarification, please feel free to ask!
 
-php public/index.php
 
-This will run the sample CRUD operations and output the results to the console.
+## Project Overview
+
+This PHP-based application demonstrates:
+- Basic CRUD operations for customer management
+- Data validation and sanitization
+- Dependency injection for database connections
+- Inheritance in object-oriented programming
+
+## Setup and Running the Application
+
+1. Make sure you have PHP (version 7.4 or higher) installed on your system.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory in your terminal.
+4. Run `composer install` to set up the autoloader.
+5. To run the application, use the command: `php public/index.php`
 
 ## Project Structure
 
-- `src/`: Contains the source code for the project.
-  - `Database/`: Database connection class.
-  - `Models/`: Customer models.
-  - `Managers/`: CustomerManager for CRUD operations.
-- `public/`: Contains the entry point for the application.
-- `data/`: Stores the SQLite database file.
+- `public/index.php`: Main entry point, demonstrates default CRUD operations
+- `src/Database/DatabaseConnection.php`: Handles database connection
+- `src/Managers/CustomerManager.php`: Manages CRUD operations for customers
+- `src/Models/`: Contains Customer, RetailCustomer, and CorporateCustomer classes
+
+## Key Features
+
+1. **Data Validation**: Customer data is validated before being saved or updated.
+2. **SQL Injection Protection**: Prepared statements are used to prevent SQL injection.
+3. **Dependency Injection**: The database connection is injected into the CustomerManager.
+4. **Inheritance**: RetailCustomer and CorporateCustomer inherit from the base Customer class.
