@@ -1,7 +1,6 @@
 # Focus Camera Simple Customer Management System
 
-This is a basic CRUD (Create, Read, Update, Delete) application for managing customer entities, developed as part of the junior developer application process.
-
+This is a basic CRUD (Create, Read, Update, Delete) application for managing customer entities, developed as part of the junior developer application process. The project is built in PHP and uses SQLite for data storage, with a single table named "customers".
 
 ## Note to Focus Camera Staff
 
