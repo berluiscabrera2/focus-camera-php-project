@@ -11,11 +11,10 @@ If you have any questions or need further clarification, please feel free to ask
 
 ## Setup and Running the Application
 
-1. Make sure you have PHP (version 7.4 or higher) installed on your system.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory in your terminal.
-4. Run `composer install` to set up the autoloader.
-5. To run the application, use the command: `php public/index.php`
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `composer install` to set up the autoloader.
+4. To run the application, use the command: `php public/index.php`
 
 ## Project Structure
 
