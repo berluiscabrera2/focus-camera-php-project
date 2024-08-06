@@ -10,14 +10,6 @@ This project is a demonstration of basic PHP skills and understanding of key pro
 If you have any questions or need further clarification, please feel free to ask!
 
 
-## Project Overview
-
-This PHP-based application demonstrates:
-- Basic CRUD operations for customer management
-- Data validation and sanitization
-- Dependency injection for database connections
-- Inheritance in object-oriented programming
-
 ## Setup and Running the Application
 
 1. Make sure you have PHP (version 7.4 or higher) installed on your system.
@@ -32,6 +24,9 @@ This PHP-based application demonstrates:
 - `src/Database/DatabaseConnection.php`: Handles database connection
 - `src/Managers/CustomerManager.php`: Manages CRUD operations for customers
 - `src/Models/`: Contains Customer, RetailCustomer, and CorporateCustomer classes
+  - `Customer.php`: Base abstract class for all customer types
+  - `RetailCustomer.php`: Represents individual retail customers
+  - `CorporateCustomer.php`: Represents business or corporate customers
 
 ## Key Features
 
